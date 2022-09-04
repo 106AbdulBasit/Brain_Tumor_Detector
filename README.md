@@ -1,1 +1,4 @@
-# Brain_Tumor_Detect
+# Brain_Tumor_Detector
+
+# Intrduction
+In this project 
