@@ -47,10 +47,10 @@ The main file makes the object of the two modules and then executes the file fro
 
 # Important Note
 
-At the moment in the main file, the argument parser allows input of the path of the image. The structure of the module is written in a way that more argument parsers can be added to the main.py file which would allow the following functionality
+At the moment in the main.py file, the argument parser allows input of the path of the image. The structure of the module is written in a way that more argument parsers can be added to the main.py file which would allow the following functionality:
 
-1. Set the size of the image 
-2. Set the color mode
+1. Set the size of the image.
+2. Set the color mode.
 
 
 
