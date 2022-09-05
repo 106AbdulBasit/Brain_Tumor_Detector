@@ -26,7 +26,6 @@ $ python3 main.py --path Samples/y1.jpg
 
 # Control Flow
 
-Control flow
 This repository contains three modules.
 1. Image Reader
 2. Model Inference
@@ -42,7 +41,7 @@ The model inference module loads the weights file set the threshold and gives th
 **Main.py**
 The main file makes the object of the two modules and then executes the file from the given path.
 
-**Every module is written in a generic form so it can be expanded or be utilezed for other future project**.
+**Every module is written in a generic form so it can be expanded or be utilised for other future project**.
 
 
 
