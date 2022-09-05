@@ -32,13 +32,13 @@ This repository contains three modules.
 
         
 **Image Reader**:
-The Image module takes care of the valid input. Handles the edge cases for the input like the size of the image and color mode of the image, takes care of the preprocessing of the input which is given to the model inference
+The Image module takes care of the valid input. Handles the edge cases for the input like the size of the image and color mode of the image, takes care of the preprocessing of the input.
 
 **Model Inference**:
-The model inference module loads the weights file set the threshold and gives the output. If the value is greater than the threshold the model classifies the images as the brain tumor.
+The model inference module loads the weights file set the threshold and gives the output. it takes the input from the image reader module.If the value is greater than the threshold the model classifies the images as the brain tumor.
 
 **Main.py**
-The main file makes the object of the two modules and then executes the file.
+The main file makes the object of the two modules and then executes the file from the given path.
 
 
 
