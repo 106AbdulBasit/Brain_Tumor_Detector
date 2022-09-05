@@ -1,16 +1,50 @@
 # Brain_Tumor_Detector
 
 # Introduction
-I have deployed the model in which you can detect the brain tumor through the image. You have to give the input the image and the model will tells you if the image has the brain tumor or not.
+The project aims to classify the brain tumor whether the MRI image of the brain contains the brain tumor or not. This repository contains the weights file of the trained model. The user can download the repository and then use it to classify the images.
 
-# Installion
+# Installation
+```
+ python3 -m venv /path/to/new/virtual/environment
+ 
+ #activate the virtual environment
+ 
+ $ git clone https://github.com/ 106AbdulBasit/Brain_Tumor_Detector 
+#Go into the repository
+$ cd Brain_Tumor_Detector
 
-To install the project 
+#Install dependencies
+$ pip3 install -r requirements.txt
 
-> pip3 install -r requirements.txt 
+ #Execute the file. You can set your own path to the image as well
+$ python3 main.py --path Samples/y1.jpg
 
-> python3 main.py --path Samples/y1.jpg
+```
 
-# ControlFlow
+
+# Control Flow
+
+Control flow
+This repository contains three modules.
+1. Image Reader
+2. Model Inference
+3. Main.py
+
+        
+**Image Reader**:
+The Image module takes care of the valid input. Handles the edge cases for the input like the size of the image and color mode of the image, takes care of the preprocessing of the input which is given to the model inference
+
+**Model Inference**:
+The model inference module loads the weights file set the threshold and gives the output. If the value is greater than the threshold the model classifies the images as the brain tumor.
+
+**Main.py**
+The main file makes the object of the two modules and then executes the file.
+
+
 
 # Future Work
+
+At the moment in the main file, the argument parser allows input of the path of the image. The structure of the module is written in a way that more argument parsers can be added to the main.py file which would allow the following functionality
+1 Set the size of the image 
+2 Set the color mode
+
