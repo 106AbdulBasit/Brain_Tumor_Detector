@@ -10,6 +10,7 @@ The project aims to classify the brain tumor whether the MRI image of the brain 
  python3 -m venv /path/to/new/virtual/environment
  
  #activate the virtual environment
+ environment\activate
  
  $ git clone https://github.com/ 106AbdulBasit/Brain_Tumor_Detector 
 #Go into the repository
